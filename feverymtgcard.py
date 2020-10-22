@@ -21,4 +21,4 @@ for line in cards:
 	new_file.write(line + "\n")
 
 log = open("log_tweets.txt","a")
-log.write(str(datetime.datetime.now()) + ": " + card)
+log.write(str(datetime.datetime.now()) + ": " + card + "\n")
